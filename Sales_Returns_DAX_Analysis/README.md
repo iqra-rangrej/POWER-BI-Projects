@@ -44,7 +44,7 @@ The model was designed using a Star Schema approach to establish efficient relat
 
 ⭐ Star Schema Architecture
 
-"Star Schema" (star_schema.png)
+![Star Schema](star_schema.png)
 
 The Star Schema serves as the foundation of the project by connecting transactional sales and returns data with descriptive dimensions such as customers, products, dates, and regions. This structure improves query performance, simplifies report development, and supports scalable analytical calculations.
 
@@ -52,7 +52,7 @@ The Star Schema serves as the foundation of the project by connecting transactio
 
 📂 Tables & Measures Overview
 
-"Tables and Measures" (tables_and_measure.png)
+![Tables and Measures](tables_and_measure.png)
 
 The project includes multiple dimension tables, fact tables, calculated columns, and DAX measures designed to support advanced business analysis. A dedicated measure table was used to organize calculations and maintain a clean data model structure.
 
@@ -62,7 +62,7 @@ This approach improves model readability, simplifies maintenance, and follows Po
 
 🧠 DAX Calculations & Business Logic
 
-"DAX Formulas" (dax_formulas.png)
+![DAX Formulas](dax_formulas.png)
 
 DAX was used extensively throughout the project to create dynamic calculations and business metrics. The implemented logic supports profitability analysis, return tracking, customer insights, sales performance monitoring, filter context evaluation, and time-based comparisons.
 
@@ -72,19 +72,25 @@ The calculations transform raw transactional data into meaningful business indic
 
 📊 Interactive Dashboard
 
-"Dashboard" (Final_dashboard.png)
+![Dashboard](Final_dashboard.png)
 
 The dashboard provides a consolidated analytical view of sales and returns performance across multiple business dimensions.
 
 Dashboard Highlights
 
-- 🌍 Regional Sales Performance Analysis
-- 📅 Time Intelligence & Trend Analysis
-- 🛍️ Product Category Profitability Evaluation
-- 👤 Customer Segment Performance Analysis
-- 📈 Year-over-Year Sales Comparison
-- 💰 Profitability and Return Monitoring
-- 🔍 Dynamic Business Performance Tracking
+🌍 Regional Sales Performance Analysis
+
+📅 Time Intelligence & Trend Analysis
+
+🛍️ Product Category Profitability Evaluation
+
+👤 Customer Segment Performance Analysis
+
+📈 Year-over-Year Sales Comparison
+
+💰 Profitability and Return Monitoring
+
+🔍 Dynamic Business Performance Tracking
 
 ---
 
